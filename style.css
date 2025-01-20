@@ -1,0 +1,141 @@
+/* Style du corps */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF;
+    background-color: #0d0d0d;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    background: linear-gradient(135deg, #ff0066, #ffcc33);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+header nav a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+header nav a:hover {
+    color: #ffcc33;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px;
+    background-color: #333333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+    font-size: 2em;
+    color: #ffcc33;
+    text-align: center;
+}
+
+section p,
+section ul,
+section ol,
+section table {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ffcc33;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #ff0066;
+    color: #ffffff;
+}
+
+table td {
+    background-color: #262626;
+}
+
+/* Formulaire */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ffcc33;
+    border-radius: 5px;
+    background-color: #0d0d0d;
+    color: #ffffff;
+}
+
+form button {
+    background-color: #ff0066;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #ffcc33;
+}
+
+/* Pied de page */
+footer {
+    background: #262626;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffcc33;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff0066;
+}
+
+/* Image de profil */
+main div img {
+    width: 200px;
+    /* Ajustez la taille selon vos préférences */
+    height: 200px;
+    /* Ajustez la taille selon vos préférences */
+    border-radius: 50%;
+    border: 5px solid #ffcc33;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+main div img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(255, 204, 51, 0.8);
+}
